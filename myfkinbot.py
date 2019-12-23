@@ -9,7 +9,7 @@ cursor = conn.cursor()
 conn1 = sqlite3.connect('mirage4.db')
 cursor1 = conn1.cursor()
 
-token = "b0b70993d74782b6222fa020a3cb3645fa36ea784a23adde79c576aedf9124ebec6ae81d5f2cff29fec88"
+token = ""
 
 vk = vk_api.VkApi(token=token)
 
